@@ -15,7 +15,7 @@ public class SoccerNewsRepository {
     private static final String LOCAL_DB_NAME = "soccer-news";
     //endregion
 
-    //region Atributos: encapsulam o acesso a nossa API (Retrofit) e banco de dados local (Room).
+    ///region Atributos: encapsulam o acesso a nossa API (Retrofit) e banco de dados local (Room).
     private SoccerNewsApi remoteApi;
     private SoccerNewsDb localDb;
 
